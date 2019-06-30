@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/myOutputDisp"
+            android:layout_width="300dp"
+            android:layout_height="600dp"
+            android:gravity="center"
+            android:text="原始文字"
+            android:textColor="#212122"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        >
+    <Button
+        android:id="@+id/button_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读入"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+
+        <Button
+        android:id="@+id/button_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="614dp" />
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

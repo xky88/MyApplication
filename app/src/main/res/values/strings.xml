@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">数独解题器</string>
+    <string name="out_str">我的棋盘</string>
+</resources>
